@@ -29,9 +29,9 @@ function App() {
         </div>
         <div className="container hero-content">
           <div className="hero-text">
-            <span className="hero-badge">Welcome to Our Learning Family</span>
+            <span className="hero-badge">Licensed Home-Based Childcare in Black Diamond</span>
             <h1>Where Little Explorers <span className="highlight">Discover</span> Big Adventures</h1>
-            <p>At Ten Trails Early Learning, we nurture curious minds through nature-inspired education, creative play, and a warm, loving environment where every child can thrive.</p>
+            <p>At Ten Trails Early Learning Childcare, we provide a safe, loving, family-centered environment where every child can thrive. Specializing in play-based learning and individualized support for children with unique needs.</p>
             <div className="hero-buttons">
               <a href="#contact" className="btn btn-primary">Schedule a Tour</a>
               <a href="#programs" className="btn btn-secondary">Our Programs</a>
@@ -39,15 +39,15 @@ function App() {
             <div className="hero-stats">
               <div className="stat">
                 <span className="stat-number">10+</span>
-                <span className="stat-label">Years Experience</span>
+                <span className="stat-label">Years Healthcare Experience</span>
               </div>
               <div className="stat">
-                <span className="stat-number">200+</span>
-                <span className="stat-label">Happy Families</span>
+                <span className="stat-number">6</span>
+                <span className="stat-label">Children Capacity</span>
               </div>
               <div className="stat">
-                <span className="stat-number">5★</span>
-                <span className="stat-label">Rating</span>
+                <span className="stat-number">0-6</span>
+                <span className="stat-label">Years Old</span>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ function App() {
             <div className="hero-image-container">
               <div className="hero-image-placeholder">
                 <span className="emoji-large">👧🏽👦🏻👶🏾</span>
-                <p>Learning Through Play</p>
+                <p>Play-Based Learning</p>
               </div>
             </div>
           </div>
@@ -67,34 +67,36 @@ function App() {
         <div className="container">
           <div className="about-content">
             <div className="about-image">
-              <div className="about-image-card">
-                <span className="emoji-xl">🌳🦋🌻</span>
+              <div className="about-image-card owner-photo">
+                <img src="/media/tentrails owner.jpeg" alt="Ms. Chatty - Owner of Ten Trails Early Learning Childcare" />
               </div>
             </div>
             <div className="about-text">
-              <span className="section-badge">About Us</span>
-              <h2>Nurturing Growth, One Trail at a Time</h2>
-              <p>Ten Trails Early Learning is more than just a daycare – we're a community dedicated to giving children the best start in life. Our nature-inspired approach combines outdoor exploration with structured learning to develop well-rounded, confident children.</p>
+              <span className="section-badge">Meet Ms. Chatty</span>
+              <h2>A Personal, Meaningful, Family-Centered Approach</h2>
+              <p>Hi, I'm Ms. Chatty, owner of Ten Trails Early Learning Childcare. With over 10 years of experience in healthcare and nursing, I bring a unique perspective to early childhood care. During the pandemic, staying home with my son who was delayed in his social-emotional development taught me the importance of patience, consistency, and early support – completely changing the direction of my life.</p>
+              <p>I've been a licensed early learning childcare provider since May 2023. Today, I work with children who have complex needs, developmental delays, and disabilities. I collaborate closely with the Birth to Five Center at JJ Smith Elementary and the Children's Therapy Center, bringing individualized developmental support directly into my home.</p>
+              <p>My love for childcare runs deep – my mom was an early childhood teacher before becoming a stay-at-home mom to five of us. I grew up surrounded by her love for learning and nurturing care, and now I get to provide that same safe, loving environment for the children in my care.</p>
               <div className="about-features">
                 <div className="about-feature">
-                  <span className="feature-icon">🌱</span>
+                  <span className="feature-icon">🏥</span>
                   <div>
-                    <h4>Nature-Based Learning</h4>
-                    <p>Outdoor activities and nature exploration integrated into daily curriculum</p>
+                    <h4>Healthcare Background</h4>
+                    <p>10+ years of nursing experience with CPR & First Aid certification</p>
                   </div>
                 </div>
                 <div className="about-feature">
-                  <span className="feature-icon">❤️</span>
+                  <span className="feature-icon">🤝</span>
                   <div>
-                    <h4>Caring Environment</h4>
-                    <p>Small class sizes with dedicated, nurturing teachers</p>
+                    <h4>Therapy Partnerships</h4>
+                    <p>Collaborating with Birth to Five Center & Children's Therapy Center</p>
                   </div>
                 </div>
                 <div className="about-feature">
-                  <span className="feature-icon">📚</span>
+                  <span className="feature-icon">💜</span>
                   <div>
-                    <h4>School Readiness</h4>
-                    <p>Age-appropriate curriculum preparing children for academic success</p>
+                    <h4>Special Needs Support</h4>
+                    <p>Specialized care for children with developmental delays and disabilities</p>
                   </div>
                 </div>
               </div>
@@ -108,27 +110,27 @@ function App() {
         <div className="container">
           <div className="section-header">
             <span className="section-badge">Our Programs</span>
-            <h2>Programs for Every Stage of Growth</h2>
-            <p>From infants to preschoolers, we offer age-appropriate programs designed to nurture development at every milestone.</p>
+            <h2>Daycare for Ages 0 to 6 Years</h2>
+            <p>Play-based learning tailored to each child's unique developmental journey. Full-time, part-time, and drop-in options available year-round.</p>
           </div>
           <div className="programs-grid">
             <div className="program-card">
               <div className="program-icon">👶</div>
               <h3>Infant Care</h3>
-              <p className="program-age">6 weeks - 12 months</p>
+              <p className="program-age">0 - 12 months</p>
               <p>A safe, nurturing environment focused on bonding, sensory exploration, and establishing healthy routines for your little one.</p>
               <ul className="program-features">
                 <li>Individual care plans</li>
-                <li>Tummy time & sensory play</li>
-                <li>Daily parent updates</li>
+                <li>Sensory play activities</li>
+                <li>Daily parent communication</li>
               </ul>
             </div>
             <div className="program-card featured">
-              <div className="program-badge">Most Popular</div>
+              <div className="program-badge">Play-Based</div>
               <div className="program-icon">🧒</div>
               <h3>Toddler Program</h3>
-              <p className="program-age">1 - 2 years</p>
-              <p>Active learning through play, music, and movement as toddlers discover their independence and social skills.</p>
+              <p className="program-age">1 - 3 years</p>
+              <p>Active learning through play, music, and movement as toddlers discover their independence and social-emotional skills.</p>
               <ul className="program-features">
                 <li>Language development</li>
                 <li>Creative arts & music</li>
@@ -137,15 +139,21 @@ function App() {
             </div>
             <div className="program-card">
               <div className="program-icon">👧</div>
-              <h3>Preschool</h3>
-              <p className="program-age">3 - 5 years</p>
-              <p>Preparing children for kindergarten with literacy, math foundations, science exploration, and social-emotional development.</p>
+              <h3>Preschool Prep</h3>
+              <p className="program-age">3 - 6 years</p>
+              <p>Preparing children for kindergarten with early literacy, social skills, and individualized developmental support.</p>
               <ul className="program-features">
-                <li>Early literacy & math</li>
-                <li>STEM activities</li>
-                <li>Kindergarten readiness</li>
+                <li>School readiness skills</li>
+                <li>Social-emotional growth</li>
+                <li>Developmental support</li>
               </ul>
             </div>
+          </div>
+          <div className="schedule-options">
+            <div className="schedule-badge">Full Time</div>
+            <div className="schedule-badge">Part Time</div>
+            <div className="schedule-badge">Drop In</div>
+            <div className="schedule-badge">Summer Care</div>
           </div>
         </div>
       </section>
@@ -156,38 +164,45 @@ function App() {
           <div className="section-header">
             <span className="section-badge">Why Ten Trails</span>
             <h2>Why Families Choose Us</h2>
-            <p>We go above and beyond to ensure your child receives the highest quality care and education.</p>
+            <p>A licensed home-based childcare with the expertise to support every child's unique journey.</p>
           </div>
           <div className="features-grid">
             <div className="feature-card">
-              <span className="feature-card-icon">👩‍🏫</span>
-              <h3>Qualified Teachers</h3>
-              <p>Our educators are certified professionals with years of early childhood experience and ongoing training.</p>
+              <span className="feature-card-icon">🏥</span>
+              <h3>Healthcare Expertise</h3>
+              <p>Owner with 10+ years nursing background. Staff can administer medication and are CPR & First Aid certified.</p>
+            </div>
+            <div className="feature-card">
+              <span className="feature-card-icon">💜</span>
+              <h3>Special Needs Support</h3>
+              <p>Specialized care for children with complex needs, developmental delays, and disabilities with therapy partnerships.</p>
             </div>
             <div className="feature-card">
               <span className="feature-card-icon">🏡</span>
-              <h3>Safe & Clean Facility</h3>
-              <p>State-licensed facility with enhanced safety protocols, secure entry, and rigorous cleaning standards.</p>
+              <h3>Licensed Home Setting</h3>
+              <p>State-licensed child care home (License #PL-82900) with intimate, family-centered environment.</p>
             </div>
             <div className="feature-card">
               <span className="feature-card-icon">🥗</span>
-              <h3>Nutritious Meals</h3>
+              <h3>Meals Provided</h3>
               <p>Healthy, balanced meals and snacks prepared fresh daily with accommodations for dietary needs.</p>
             </div>
             <div className="feature-card">
-              <span className="feature-card-icon">📱</span>
-              <h3>Parent Communication</h3>
-              <p>Real-time updates, photos, and daily reports through our parent app keep you connected.</p>
-            </div>
-            <div className="feature-card">
               <span className="feature-card-icon">🎨</span>
-              <h3>Creative Curriculum</h3>
-              <p>Play-based learning that sparks imagination through art, music, storytelling, and hands-on activities.</p>
+              <h3>Play-Based Learning</h3>
+              <p>Child-led exploration that sparks imagination through art, music, storytelling, and hands-on activities.</p>
             </div>
             <div className="feature-card">
               <span className="feature-card-icon">🌲</span>
-              <h3>Outdoor Learning</h3>
-              <p>Beautiful outdoor spaces designed for nature exploration, physical activity, and discovery.</p>
+              <h3>Outdoor Play Space</h3>
+              <p>Beautiful outdoor areas designed for nature exploration, physical activity, and discovery.</p>
+            </div>
+          </div>
+          <div className="languages-section">
+            <h3>Languages Spoken</h3>
+            <div className="language-badges">
+              <span className="language-badge">English</span>
+              <span className="language-badge">Tagalog</span>
             </div>
           </div>
         </div>
@@ -203,34 +218,34 @@ function App() {
           <div className="testimonials-grid">
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
-              <p>"Ten Trails has been a blessing for our family. The teachers truly care about each child's development, and our daughter has flourished here!"</p>
+              <p>"Ms. Chatty has been a blessing for our family. Her nursing background gives us so much peace of mind, and our daughter has flourished in her care!"</p>
               <div className="testimonial-author">
                 <span className="author-avatar">👩🏻</span>
                 <div>
-                  <strong>Sarah M.</strong>
-                  <span>Parent of 3-year-old</span>
+                  <strong>Happy Parent</strong>
+                  <span>Parent of toddler</span>
                 </div>
               </div>
             </div>
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
-              <p>"The nature-based approach is exactly what we were looking for. Our son comes home excited about what he learned every single day."</p>
+              <p>"The individualized attention and therapy collaboration has made such a difference for our son. Ms. Chatty truly understands children with special needs."</p>
               <div className="testimonial-author">
                 <span className="author-avatar">👨🏽</span>
                 <div>
-                  <strong>Michael T.</strong>
-                  <span>Parent of 4-year-old</span>
+                  <strong>Grateful Parent</strong>
+                  <span>Parent of preschooler</span>
                 </div>
               </div>
             </div>
             <div className="testimonial-card">
               <div className="testimonial-stars">★★★★★</div>
-              <p>"From infant care to preschool, Ten Trails has been our home away from home. The staff feels like family!"</p>
+              <p>"The small, home-based setting is exactly what we wanted. It feels like family, and our child comes home happy every single day."</p>
               <div className="testimonial-author">
                 <span className="author-avatar">👩🏾</span>
                 <div>
-                  <strong>Jessica L.</strong>
-                  <span>Parent of 2 children</span>
+                  <strong>Loving Parent</strong>
+                  <span>Parent of infant</span>
                 </div>
               </div>
             </div>
@@ -245,34 +260,34 @@ function App() {
             <div className="contact-info">
               <span className="section-badge">Get In Touch</span>
               <h2>Start Your Child's Journey Today</h2>
-              <p>We'd love to welcome your family to Ten Trails Early Learning. Schedule a tour to see our facility and meet our amazing teachers!</p>
+              <p>We'd love to welcome your family to Ten Trails Early Learning Childcare. Schedule a tour to see our home and meet Ms. Chatty!</p>
               <div className="contact-details">
                 <div className="contact-item">
                   <span className="contact-icon">📍</span>
                   <div>
                     <strong>Location</strong>
-                    <p>Ten Trails Community<br />Black Diamond, WA</p>
-                  </div>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📞</span>
-                  <div>
-                    <strong>Phone</strong>
-                    <p>(555) 123-4567</p>
-                  </div>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📧</span>
-                  <div>
-                    <strong>Email</strong>
-                    <p>hello@tentrailsearlylearning.com</p>
+                    <p>Black Diamond, WA<br /><em>Home-Based Childcare</em></p>
                   </div>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">🕐</span>
                   <div>
                     <strong>Hours</strong>
-                    <p>Monday - Friday<br />6:30 AM - 6:00 PM</p>
+                    <p>Monday - Friday<br />8:00 AM - 5:00 PM</p>
+                  </div>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">📋</span>
+                  <div>
+                    <strong>License</strong>
+                    <p>WA State License<br />#PL-82900</p>
+                  </div>
+                </div>
+                <div className="contact-item">
+                  <span className="contact-icon">💰</span>
+                  <div>
+                    <strong>Financial Aid</strong>
+                    <p>Subsidies & Vouchers<br />Accepted</p>
                   </div>
                 </div>
               </div>
@@ -301,14 +316,23 @@ function App() {
                   <label htmlFor="childAge">Child's Age</label>
                   <select id="childAge" name="childAge" required>
                     <option value="">Select age range</option>
-                    <option value="infant">Infant (6 weeks - 12 months)</option>
-                    <option value="toddler">Toddler (1 - 2 years)</option>
-                    <option value="preschool">Preschool (3 - 5 years)</option>
+                    <option value="infant">Infant (0 - 12 months)</option>
+                    <option value="toddler">Toddler (1 - 3 years)</option>
+                    <option value="preschool">Preschool (3 - 6 years)</option>
+                  </select>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="schedule">Preferred Schedule</label>
+                  <select id="schedule" name="schedule" required>
+                    <option value="">Select schedule type</option>
+                    <option value="fulltime">Full Time</option>
+                    <option value="parttime">Part Time</option>
+                    <option value="dropin">Drop In</option>
                   </select>
                 </div>
                 <div className="form-group">
                   <label htmlFor="message">Message (Optional)</label>
-                  <textarea id="message" name="message" placeholder="Tell us about your family..." rows="3"></textarea>
+                  <textarea id="message" name="message" placeholder="Tell us about your child and family..." rows="3"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary btn-full">Request Tour</button>
               </form>
@@ -326,35 +350,36 @@ function App() {
                 <span className="logo-icon">🌲</span>
                 <span className="logo-text">Ten Trails Early Learning</span>
               </a>
-              <p>Nurturing curious minds through nature-inspired education and loving care.</p>
+              <p>A licensed home-based childcare providing loving, family-centered care in Black Diamond, WA. Specializing in play-based learning and support for children with unique needs.</p>
+              <p className="license-info">WA State License #PL-82900</p>
             </div>
             <div className="footer-links">
               <h4>Quick Links</h4>
               <ul>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#about">About Ms. Chatty</a></li>
                 <li><a href="#programs">Programs</a></li>
                 <li><a href="#why-us">Why Choose Us</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
             <div className="footer-links">
-              <h4>Programs</h4>
+              <h4>Services</h4>
               <ul>
-                <li><a href="#programs">Infant Care</a></li>
-                <li><a href="#programs">Toddler Program</a></li>
-                <li><a href="#programs">Preschool</a></li>
+                <li><a href="#programs">Infant Care (0-12 mo)</a></li>
+                <li><a href="#programs">Toddler Program (1-3 yr)</a></li>
+                <li><a href="#programs">Preschool Prep (3-6 yr)</a></li>
+                <li><a href="#programs">Summer Care</a></li>
               </ul>
             </div>
             <div className="footer-links">
               <h4>Connect</h4>
               <ul>
                 <li><a href="https://instagram.com/tentrailsearlylearning" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="https://facebook.com/tentrailsearlylearning" target="_blank" rel="noopener noreferrer">Facebook</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2025 Ten Trails Early Learning. All rights reserved.</p>
+            <p>&copy; 2025 Ten Trails Early Learning Childcare. All rights reserved. | Black Diamond, WA</p>
           </div>
         </div>
       </footer>

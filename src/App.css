@@ -808,3 +808,92 @@
     padding: 25px;
   }
 }
+
+/* Owner Photo */
+.owner-photo {
+  padding: 0;
+  overflow: hidden;
+  background: none;
+}
+
+.owner-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  display: block;
+}
+
+/* About text multiple paragraphs */
+.about-text > p {
+  margin-bottom: 15px;
+}
+
+.about-text > p:last-of-type {
+  margin-bottom: 30px;
+}
+
+/* Schedule Options */
+.schedule-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.schedule-badge {
+  background: var(--white);
+  color: var(--primary-green);
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid var(--primary-green);
+  transition: all 0.3s;
+}
+
+.schedule-badge:hover {
+  background: var(--primary-green);
+  color: var(--white);
+}
+
+/* Languages Section */
+.languages-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.languages-section h3 {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+.language-badges {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.language-badge {
+  background: var(--cream);
+  color: var(--text-dark);
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* License Info */
+.license-info {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Contact item emphasis */
+.contact-item em {
+  font-style: italic;
+  font-size: 0.85rem;
+}
