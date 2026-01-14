@@ -292,8 +292,11 @@ function App() {
                 </div>
               </div>
               <div className="social-links">
-                <a href="https://instagram.com/tentrailsearlylearning" target="_blank" rel="noopener noreferrer" className="social-link">
-                  <span>📸</span> Follow us on Instagram
+                <a href="https://www.instagram.com/tentrailsearlylearning/" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <span>📸</span> Instagram
+                </a>
+                <a href="https://www.facebook.com/groups/4073646546239026" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <span>📘</span> Facebook
                 </a>
               </div>
             </div>
@@ -374,7 +377,8 @@ function App() {
             <div className="footer-links">
               <h4>Connect</h4>
               <ul>
-                <li><a href="https://instagram.com/tentrailsearlylearning" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.instagram.com/tentrailsearlylearning/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.facebook.com/groups/4073646546239026" target="_blank" rel="noopener noreferrer">Facebook</a></li>
               </ul>
             </div>
           </div>
