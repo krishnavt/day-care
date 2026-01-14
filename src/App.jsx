@@ -89,10 +89,11 @@ function App() {
           </div>
           <div className="hero-image">
             <div className="hero-image-container">
-              <div className="hero-image-placeholder">
-                <span className="emoji-large">👧🏽👦🏻👶🏾</span>
-                <p>Play-Based Learning</p>
-              </div>
+              <img
+                src="/media/play-based-learning.png"
+                alt="Children engaged in play-based learning activities"
+                className="hero-photo"
+              />
             </div>
           </div>
         </div>
