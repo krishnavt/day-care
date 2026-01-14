@@ -1,6 +1,17 @@
+import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false)
+  }
+
   return (
     <div className="app">
       {/* Navigation */}
@@ -10,13 +21,38 @@ function App() {
             <span className="logo-icon">🌲</span>
             <span className="logo-text">Ten Trails Early Learning</span>
           </a>
-          <ul className="nav-links">
+
+          {/* Desktop Navigation */}
+          <ul className="nav-links desktop-nav">
             <li><a href="#about">About</a></li>
             <li><a href="#programs">Programs</a></li>
             <li><a href="#why-us">Why Us</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <a href="#contact" className="nav-cta">Enroll Now</a>
+
+          <a href="#contact" className="nav-cta desktop-nav">Enroll Now</a>
+
+          {/* Mobile Menu Button */}
+          <button
+            className={`mobile-menu-btn ${mobileMenuOpen ? 'active' : ''}`}
+            onClick={toggleMobileMenu}
+            aria-label="Toggle menu"
+          >
+            <span className="hamburger-line"></span>
+            <span className="hamburger-line"></span>
+            <span className="hamburger-line"></span>
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        <div className={`mobile-nav ${mobileMenuOpen ? 'open' : ''}`}>
+          <ul className="mobile-nav-links">
+            <li><a href="#about" onClick={closeMobileMenu}>About</a></li>
+            <li><a href="#programs" onClick={closeMobileMenu}>Programs</a></li>
+            <li><a href="#why-us" onClick={closeMobileMenu}>Why Us</a></li>
+            <li><a href="#contact" onClick={closeMobileMenu}>Contact</a></li>
+          </ul>
+          <a href="#contact" className="btn btn-primary mobile-cta" onClick={closeMobileMenu}>Enroll Now</a>
         </div>
       </nav>
 
@@ -267,6 +303,14 @@ function App() {
                   <div>
                     <strong>Location</strong>
                     <p>Black Diamond, WA<br /><em>Home-Based Childcare</em></p>
+                    <a
+                      href="https://www.google.com/maps/search/Ten+Trails+Black+Diamond+WA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="map-link"
+                    >
+                      View on Google Maps →
+                    </a>
                   </div>
                 </div>
                 <div className="contact-item">
@@ -379,6 +423,11 @@ function App() {
               <ul>
                 <li><a href="https://www.instagram.com/tentrailsearlylearning/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 <li><a href="https://www.facebook.com/groups/4073646546239026" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li>
+                  <a href="https://www.google.com/maps/search/Ten+Trails+Black+Diamond+WA" target="_blank" rel="noopener noreferrer">
+                    Find Us on Map
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
